@@ -9,13 +9,13 @@ import Redux from './containers/Redux';
 
 const App = () => {
   return (
-    <div className='flex h-screen items-center justify-center gap-10'>
+    <div className='w-[100%] flex h-screen items-center justify-center gap-10'>
         {/* <Focus/> */}
         {/* <MyComponent/> */}
         {/* <ClassCounter/> */}
         {/* <FunctionCounter/> */}
-        {/* <Reducer/> */}
-        <Redux/>
+        <Reducer/>
+        {/* <Redux/> */}
     </div>
   );
 }

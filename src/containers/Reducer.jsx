@@ -68,8 +68,8 @@ const TableColorBox = () => {
     console.log(`Current state:`, state);
 
     return (
-        <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 to-purple-600">
-            <div className="w-[500px] h-[500px] border rounded-lg shadow-2xl overflow-hidden" style={{ backgroundColor: state.bgColor }}>
+        <div className="max-w-[1550px] w-[1550px] flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 to-purple-600">
+            <div className="max-w-[500px] w-[450px] mx-auto h-[500px] border rounded-lg shadow-2xl overflow-hidden" style={{ backgroundColor: state.bgColor }}>
                 <div className="flex items-center justify-center w-full h-[70%] border-b bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg">
                     <span className="text-[80px] font-bold text-white drop-shadow-lg">{state.count}</span>
                 </div>
